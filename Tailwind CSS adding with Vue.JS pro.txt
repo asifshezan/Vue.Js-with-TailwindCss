@@ -1,0 +1,23 @@
+Tailwind CSS adding with Vue.JS project.
+
+
+npm create vite Asif
+Select:- Vue then Javascript
+cd Asif
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+tailwind.config.js file --
+
+content: [ 
+	"./index.html",
+	"./src/**/*.{vue,js,ts}",
+	],
+
+style.css file --- 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

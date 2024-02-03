@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import General from './components/General.vue'
 </script>
 
 <template>
@@ -13,7 +14,8 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
 </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <General />
 
 </template>
 

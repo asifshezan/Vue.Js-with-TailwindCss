@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import General from './components/General.vue'
+import Select from './components/Select.vue'
 </script>
 
 <template>
@@ -15,7 +16,8 @@ import General from './components/General.vue'
   </div>
 </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
-  <General />
+  <!-- <General /> -->
+  <Select />
 
 </template>
 

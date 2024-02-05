@@ -2,6 +2,8 @@
 import HelloWorld from './components/HelloWorld.vue'
 import General from './components/General.vue'
 import Select from './components/Select.vue'
+import Quiz from './components/Quiz.vue'
+
 </script>
 
 <template>
@@ -17,7 +19,8 @@ import Select from './components/Select.vue'
 </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
   <!-- <General /> -->
-  <Select />
+  <!-- <Select /> -->
+  <Quiz />
 
 </template>
 

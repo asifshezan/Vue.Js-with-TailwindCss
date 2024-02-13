@@ -8,6 +8,7 @@ const students = reactive ([
 
 const addNewStudents = () => {
     students.push({ name:"", gender:""});
+    // students.unshift({ name:"Azzan", gender:"Male"});
 };
 
 </script>

@@ -18,10 +18,10 @@ import Repeater from './components/Repeater.vue'
     </a>
   </div>
 </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
-  <!-- <General /> -->
-  <!-- <Select /> -->
-  <!-- <Quiz /> -->
+  <HelloWorld msg="Vite + Vue" />
+  <General />
+  <Select />
+  <Quiz />
   <Repeater />
 
 </template>

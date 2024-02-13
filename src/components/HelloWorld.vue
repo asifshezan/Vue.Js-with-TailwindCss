@@ -1,13 +1,13 @@
 <script setup>
 import {ref} from 'vue'
-const name = ref('Vue 3')
+export const name = ref('Vue 3')
 // function updateValue(event){
 // name.value = event.target.value
 // }
 
-const color = ref('Black')
+export const color = ref('Black')
 
-function alertTest(){
+export function alertTest(){
   alert("Searching "+ name.value)
 }
 </script>
